@@ -1,0 +1,26 @@
+{
+  "name": "creepycss-text-align-responsive",
+  "authors": [
+    "James Howard <james@reetgood.co.uk>",
+    "Jon Hurrell"
+  ],
+  "description": "Responsive trump helper classes for text alignment.",
+  "main": "_trumps.text-align-responsive.scss",
+  "keywords": [
+    "css",
+    "oocss",
+    "trumps",
+    "text",
+    "align",
+    "responsive"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

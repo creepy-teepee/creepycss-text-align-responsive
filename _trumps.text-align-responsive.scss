@@ -1,0 +1,22 @@
+@each $breakpoint in $breakpoints {
+
+	$alias:     nth($breakpoint, 1);
+	$condition: nth($breakpoint, 2);
+
+	@include media-query($alias) {
+		
+		.u-tal-#{$alias} {
+			text-align: left !important;
+		}
+
+		.u-tar-#{$alias} {
+			text-align: right !important;
+		}
+
+		.u-tac-#{$alias} {
+			text-align: center !important;
+		}
+
+	}
+
+}
